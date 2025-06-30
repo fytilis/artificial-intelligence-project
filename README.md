@@ -64,7 +64,7 @@ Players take turns placing their symbols on empty cells. The game ends when:
 ### MINIMAX Algorithm
 The MINIMAX algorithm is a recursive, depth-first search algorithm used for decision-making in two-player, zero-sum games. It works by:
 1.  Building a complete game tree from the current state.
-2.  Exploring all possible future moves for both players with chebyshev heuretic.
+2.  Exploring all possible future moves for both players.
 3.  The **MAX** player aims to maximize the final score, while the **MIN** player aims to minimize it.
 4.  The algorithm backpropagates the utility values from the terminal nodes up the tree to determine the optimal move at the current state.
 
